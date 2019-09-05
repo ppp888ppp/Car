@@ -18,9 +18,8 @@ public class Car
 	}
 	
 	public static boolean ignitionSwitch(boolean ignitionSwitch)
-	//here the default value of boolean type is false
 	{
-		ignitionSwitch = !ignitionSwitch; // switch the value to opposite
+		ignitionSwitch = !ignitionSwitch; 
 		return ignitionSwitch;
 	}
 	
@@ -50,7 +49,6 @@ public class Car
 	
 	public static int moveVertically(int y, int yInput, boolean ignitionState)
 	{
-		
 		
 		if(ignitionState == false)
 		{
@@ -130,8 +128,6 @@ public class Car
 			System.out.println();
 		}
 	}
-	//until here, static methods
-	
 	
 	public static void main(String[]args)
 	{	
@@ -191,7 +187,7 @@ public class Car
 			else if(input.equals("Q"))
 			{
 				System.out.println("you ended the program");
-				return; // if the condition comes here, the return will terminate the calling method
+				return; 
 			}
 			else
 			{

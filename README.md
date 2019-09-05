@@ -33,7 +33,35 @@
 
 ## Example Output  
 
-![turn one](https://user-images.githubusercontent.com/51673576/64370496-932de200-cfec-11e9-859e-9b663fd244c7.JPG)
-![movethecar](https://user-images.githubusercontent.com/51673576/64370506-9923c300-cfec-11e9-921b-6ccbbddc6077.JPG)
-![result](https://user-images.githubusercontent.com/51673576/64370523-a04ad100-cfec-11e9-8c1d-476d0a6b7e0b.JPG)
+*Turn on the ignition first*  
+   What would you like to do?   
+   1: turn the ignition on/off   
+   2: change the position of car  
+   Q: quit this program  
+   Input: 1 
+   
+   ![1](https://user-images.githubusercontent.com/51673576/64370812-34b53380-cfed-11e9-9d19-cfed037fd843.JPG)
+   
+   
+   
+ *Move the car*
 
+  What would you like to do?  
+  1: Turn the ignition on/off   
+  2: Change the position of the car  
+  Q: Quit this program  
+  Input: 2 
+ 
+  In which direction do you want to move the car?  
+  H: Horizontal   
+  V: Vertical   
+  Direction: H    
+  Enter a movement distance: 2
+ 
+ ![2](https://user-images.githubusercontent.com/51673576/64370815-354dca00-cfed-11e9-9e42-3bfe67153813.JPG)
+
+ 
+ 
+ 
+ 
+ 

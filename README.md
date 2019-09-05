@@ -25,10 +25,9 @@
 
 
 ## Let's Play This!
-1. First, the car should be “created” through assigning values to its attributes. 
-2. the program will present the user with a menu options  
-3. As for the movement option, the secondary menu should be generated within the main() method - not in the moveHorizontally() or moveVertically() methods. Once the user makes a valid choice and enters a movement distance, one of the two methods may be called.  
-4. for error checking, the program should be able to handle invalid input at the main menu (e.g., the user inputs “zzz”) and print a message to let the user know that what they just entered cannot be accepted. Similar error checking should occur at the movement menu, when the user inputs either “H” or “V”. You may assume that the movement distance will always be an integer, but you cannot assume that the movement will not potentially move the car out of bounds (recall that separate error checking is performed in the two movement methods).
+1. the program will present the user with a menu options  
+2. As for the movement option, the secondary menu should be generated within the main() method. Once the user makes a valid choice and enters a movement distance, one of the two methods may be called.  
+3. The program should be able to handle invalid input at the main menu (e.g., the user inputs “zzz”) and print a message to let the user know that what they just entered cannot be accepted. Similar error checking should occur at the movement menu, when the user inputs either “H” or “V”. You may assume that the movement distance will always be an integer, but you cannot assume that the movement will not potentially move the car out of bounds.
 
 
 ## Example Output  
